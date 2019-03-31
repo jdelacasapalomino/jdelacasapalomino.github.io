@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "pixelArt";
+    src: url(../fonts/pixelArt.ttf);
+}
+
+#navbar {
+    background-color: rgba(255, 255, 255, 0.829);
+    position: absolute;
+    height: 45px;
+}
+
+#headerGif {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: url(../img/header.gif) bottom center no-repeat;
+    background-size: cover;
+}
+
+#headerStatic {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: url(../img/headerStatic.webp) bottom center no-repeat;
+    background-size: cover;
+}
+
+#headerContent {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#headerTitle {
+    color: #f58787;
+    text-shadow: 2px 4px #9c0e8e;
+    font-size: 65px;
+    font-family: "pixelArt";
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#menuButton {
+    color: #256b8b;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #f0f1f3;
+}
+
+.headerFont {
+    font-size: 17px;
+    font-weight: bold;
+    color: #256b8b;
+    font-family: "pixelArt";
+    height: 45px;
+}
+
+.section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
